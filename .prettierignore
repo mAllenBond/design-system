@@ -1,0 +1,3 @@
+# Ignore artifacts:
+*.html
+/storybook-static/*
