@@ -1,4 +1,4 @@
 {
   "extends": "./tsconfig.json",
-  "include": [".eslintrc.cjs", "src",".storybook","**.ts", "**.tsx"]
+  "include": [".eslint.config.mjs", "src",".storybook","**.ts", "**.tsx"]
 }
