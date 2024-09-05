@@ -11,33 +11,23 @@ import react from 'eslint-plugin-react';
 
 export default [
     {
-        plugins: {
-            "@typescript-eslint": typescriptEslint,
-            "sort-keys-fix": sortKeysFix,
-            "unused-imports": unusedImports,
-            "compat": compat,
-            "react": react,
-        },
         languageOptions: {
+            ecmaVersion: "latest",
             globals: {
                 ...globals.browser,
             },
             parser: tsParser,
-            ecmaVersion: "latest",
-            sourceType: "module",
             parserOptions: {
                 project: "./tsconfig.eslint.json",
             },
+            sourceType: "module",
         },
-        settings: {
-            "import/resolver": {
-                node: true,
-                typescript: true,
-            },
-            polyfills: ["fetch"],
-            react: {
-                version: "detect",
-            },
+        plugins: {
+            "@typescript-eslint": typescriptEslint,
+            "compat": compat,
+            "react": react,
+            "sort-keys-fix": sortKeysFix,
+            "unused-imports": unusedImports,
         },
         rules: {
             "@typescript-eslint/no-redeclare": ["off"],
@@ -58,6 +48,16 @@ export default [
             "sort-keys-fix/sort-keys-fix": ["error", "asc", { caseSensitive: false, natural: true }],
             "unused-imports/no-unused-imports": "error",
             "unused-imports/no-unused-vars": ["error", { argsIgnorePattern: "^_", caughtErrorsIgnorePattern: "^_", ignoreRestSiblings: true, varsIgnorePattern: "^_" }],
+        },
+        settings: {
+            "import/resolver": {
+                node: true,
+                typescript: true,
+            },
+            polyfills: ["fetch"],
+            react: {
+                version: "detect",
+            },
         },
     },
     {
