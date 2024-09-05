@@ -4,6 +4,7 @@ import compat from 'eslint-plugin-compat';
 import noOnlyTests from 'eslint-plugin-no-only-tests';
 import noSkipTests from 'eslint-plugin-no-skip-tests';
 import react from 'eslint-plugin-react';
+import pluginReactHooks from 'eslint-plugin-react-hooks';
 import sortKeysFix from 'eslint-plugin-sort-keys-fix';
 import testingLibrary from 'eslint-plugin-testing-library';
 import unusedImports from 'eslint-plugin-unused-imports';
@@ -26,10 +27,12 @@ export default [
       '@typescript-eslint': typescriptEslint,
       compat: compat,
       react: react,
+      'react-hooks': pluginReactHooks,
       'sort-keys-fix': sortKeysFix,
       'unused-imports': unusedImports,
     },
     rules: {
+      ...pluginReactHooks.configs.recommended.rules,
       '@typescript-eslint/no-redeclare': ['off'],
       '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/require-await': 'error',
