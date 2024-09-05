@@ -5316,7 +5316,7 @@ __metadata:
     eslint-plugin-no-only-tests: "npm:^3.3.0"
     eslint-plugin-no-skip-tests: "npm:^1.1.0"
     eslint-plugin-react: "npm:^7.35.1"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-hooks: "npm:5.1.0-rc-eb3ad065-20240822"
     eslint-plugin-react-refresh: "npm:^0.4.11"
     eslint-plugin-sort-keys-fix: "npm:^1.1.2"
     eslint-plugin-storybook: "npm:^0.8.0"
@@ -5932,12 +5932,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.6.0":
-  version: 4.6.2
-  resolution: "eslint-plugin-react-hooks@npm:4.6.2"
+"eslint-plugin-react-hooks@npm:5.1.0-rc-eb3ad065-20240822":
+  version: 5.1.0-rc-eb3ad065-20240822
+  resolution: "eslint-plugin-react-hooks@npm:5.1.0-rc-eb3ad065-20240822"
   peerDependencies:
-    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-  checksum: 10c0/4844e58c929bc05157fb70ba1e462e34f1f4abcbc8dd5bbe5b04513d33e2699effb8bca668297976ceea8e7ebee4e8fc29b9af9d131bcef52886feaa2308b2cc
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
+  checksum: 10c0/6be9d9fbaefb79cf0515063b2f012c0b74e78da2d770855c9815c095e9e66f2ef275eb3c434e5dfc4ef139057b7a761018c706b0f217c6ce54d45394a09d286f
   languageName: node
   linkType: hard
 
