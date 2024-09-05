@@ -33,8 +33,11 @@
     ]
   },
   "include": [
-    "src",
-    ".storybook",
+    "src/**/*",
+    ".storybook/**/*",
+    "eslint.config.mjs",
+    "vite.config.ts",
+    "vitest.config.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
