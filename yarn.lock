@@ -1948,17 +1948,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/material-icons@npm:^5.0.18":
-  version: 5.0.19
-  resolution: "@fontsource/material-icons@npm:5.0.19"
-  checksum: 10c0/c6dd64e55779b8ea95829db5040659c6bb59769d8c29c08b5def91e7bcb2bfe06c555e6db5d7590ab96ccc7691ba408a6ac98499b6af5db1e5e7f5f1b18df34c
+"@fontsource/material-icons@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/material-icons@npm:5.1.0"
+  checksum: 10c0/b4bd6436c3f4c62753d913c3ba8f1b3b87dede33bdb0b25198e8991610d06890d036a71ccb47ce660395da30ed0a106dc1475e209669274e87bd1bc4a8701741
   languageName: node
   linkType: hard
 
-"@fontsource/roboto@npm:^5.0.13":
-  version: 5.0.14
-  resolution: "@fontsource/roboto@npm:5.0.14"
-  checksum: 10c0/9a15fdeb53ba6e3533dde870499376d10408c3b46ed0023e0c128171f4134dffad5c3e675494e05b503b1e34b11bcf6e1e05f05714b91691f8fe83b676b47c78
+"@fontsource/roboto@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/roboto@npm:5.1.0"
+  checksum: 10c0/e424fec92e5cb89a466f271d4a1cd335b4fd8406411a7eaad5b79e9eb4cc61f6258000b1d24444cadbf1f8a06e9ddcdd30a2990b61874978e34fc357d003cba5
   languageName: node
   linkType: hard
 
@@ -5287,8 +5287,8 @@ __metadata:
     "@eslint/compat": "npm:^1.1.1"
     "@eslint/eslintrc": "npm:^3.1.0"
     "@eslint/js": "npm:^9.9.1"
-    "@fontsource/material-icons": "npm:^5.0.18"
-    "@fontsource/roboto": "npm:^5.0.13"
+    "@fontsource/material-icons": "npm:^5.1.0"
+    "@fontsource/roboto": "npm:^5.1.0"
     "@mui/material": "npm:^6.0.1"
     "@storybook/addon-essentials": "npm:^8.2.9"
     "@storybook/addon-interactions": "npm:^8.2.9"
