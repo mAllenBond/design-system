@@ -17,12 +17,12 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@fontsource/material-icons": "^5.0.18",
-    "@fontsource/roboto": "^5.0.13",
-    "itertools": "^2.3.2",
+    "@fontsource/material-icons": "^5.2.7",
+    "@fontsource/roboto": "^5.2.10",
+    "itertools": "^2.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-use": "^17.5.0"
+    "react-use": "^17.6.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^2.0.0",
